@@ -91,6 +91,9 @@ daemon=1
 listen=1
 port=45454
 maxconnections=256
+addnode=188.40.233.39
+addnode=188.40.233.40
+addnode=188.40.233.41
 ```
 Theres a few modifications to the places, with IP_HERE we would replace with the IP address of the VPS that we are logged into. The RPC username/passwords need to be set for checking and talking to your masternode. RPC Port can be adjusted by Port can not.
 
