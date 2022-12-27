@@ -137,8 +137,8 @@ public:
         // spork keys
         consensus.strSporkPubKey = "04b74c05c8d924e2e0343eefb04753bf4b575462948b9c1d343e4429ac7998e3eec16d3e7155744329664ab6934505f1ea6842734b6306afbdee75f0079721377d";
         consensus.strSporkPubKeyOld = "04b791639215092b120f1bc3aef3519a059380e739313591c91f9400837e1bebb9217838c4cdd16720a812a9e88cf21794c14cdf7ea5acb3073d5fdb1a86cc5d7e";
-        consensus.nTime_EnforceNewSporkKey = 1673784000;    //!> Sunday, January 15, 2023 12:00:00 PM GMT
-        consensus.nTime_RejectOldSporkKey = 1673800000;     //!> Sunday, January 15, 2023 4:26:40 PM GMT
+        consensus.nTime_EnforceNewSporkKey = 1675252800;    //!> Wednesday, February 1, 2023 12:00:00 PM
+        consensus.nTime_RejectOldSporkKey = 1675252799;     //!> Wednesday, February 1, 2023 11:59:59 AM
 
         // height-based activations
         consensus.height_last_invalid_UTXO = 894538;
