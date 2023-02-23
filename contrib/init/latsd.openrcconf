@@ -1,0 +1,33 @@
+# /etc/conf.d/latsd: config file for /etc/init.d/latsd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/lats/lats.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/latsd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/latsd.pid"
+
+# Where to write latsd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/latsd"
+
+# User and group to own latsd process
+#BITCOIND_USER="lats"
+#BITCOIND_GROUP="lats"
+
+# Path to latsd executable
+#BITCOIND_BIN="/usr/bin/latsd"
+
+# Nice value to run latsd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

@@ -1,0 +1,18 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="de">locale/lats_de.qm</file>
+        <file alias="en">locale/lats_en.qm</file>
+        <file alias="en_US">locale/lats_en_US.qm</file>
+        <file alias="es">locale/lats_es.qm</file>
+        <file alias="es_ES">locale/lats_es_ES.qm</file>
+        <file alias="fr_FR">locale/lats_fr_FR.qm</file>
+        <file alias="hr_HR">locale/lats_hr_HR.qm</file>
+        <file alias="it">locale/lats_it.qm</file>
+        <file alias="ko_KR">locale/lats_ko_KR.qm</file>
+        <file alias="nl">locale/lats_nl.qm</file>
+        <file alias="pl">locale/lats_pl.qm</file>
+        <file alias="ru">locale/lats_ru.qm</file>
+        <file alias="tr">locale/lats_tr.qm</file>
+        <file alias="zh_CN">locale/lats_zh_CN.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+usr/local/bin/lats-qt usr/bin
+share/pixmaps/lats32.xpm usr/share/pixmaps
+share/pixmaps/lats16.xpm usr/share/pixmaps
+share/pixmaps/lats128.png usr/share/pixmaps
+debian/lats-qt.desktop usr/share/applications
+debian/lats-qt.protocol usr/share/kde4/services/

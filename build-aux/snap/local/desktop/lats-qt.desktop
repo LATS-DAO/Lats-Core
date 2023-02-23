@@ -1,0 +1,15 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=LATS Core
+Comment=LATS Core QT main network
+GenericName=LATS Digital Currency QT client main network
+Exec=lats-core.qt %u
+Terminal=false
+Type=Application
+Icon=${SNAP}/share/pixmaps/lats.png
+MimeType=x-scheme-handler/lats;
+Categories=X-Office;X-Finance;
+Keywords=internet;lats;zlats;lats;core;wallet;qt;main;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
+Version=1.0

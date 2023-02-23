@@ -1,0 +1,3 @@
+usr/local/bin/latsd usr/bin
+usr/local/bin/lats-cli usr/bin
+debian/examples/lats.conf etc/lats

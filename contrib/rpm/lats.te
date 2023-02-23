@@ -1,0 +1,81 @@
+policy_module(lats, 1.100.1)
+
+########################################
+#
+# Declarations
+#
+
+type lats_t;
+type lats_exec_t;
+init_daemon_domain(lats_t, lats_exec_t)
+
+permissive lats_t;
+
+type lats_initrc_exec_t;
+init_script_file(lats_initrc_exec_t)
+
+type lats_conf_t;
+files_type(lats_conf_t)
+
+type lats_var_lib_t;
+files_type(lats_var_lib_t)
+
+type lats_var_run_t;
+files_type(lats_var_run_t)
+
+type lats_port_t;
+corenet_port(lats_port_t)
+
+########################################
+#
+# lats local policy
+#
+allow lats_t self:process { fork };
+
+allow lats_t self:fifo_file rw_fifo_file_perms;
+allow lats_t self:unix_stream_socket create_stream_socket_perms;
+
+manage_dirs_pattern(lats_t, lats_conf_t, lats_conf_t)
+manage_files_pattern(lats_t, lats_conf_t, lats_conf_t)
+
+manage_dirs_pattern(lats_t, lats_var_lib_t, lats_var_lib_t)
+manage_files_pattern(lats_t, lats_var_lib_t, lats_var_lib_t)
+files_var_lib_filetrans(lats_t, lats_var_lib_t, { dir file })
+
+manage_dirs_pattern(lats_t, lats_var_run_t, lats_var_run_t)
+manage_files_pattern(lats_t, lats_var_run_t, lats_var_run_t)
+
+sysnet_dns_name_resolve(lats_t)
+corenet_all_recvfrom_unlabeled(lats_t)
+
+allow lats_t self:tcp_socket create_stream_socket_perms;
+corenet_tcp_sendrecv_generic_if(lats_t)
+corenet_tcp_sendrecv_generic_node(lats_t)
+corenet_tcp_sendrecv_all_ports(lats_t)
+corenet_tcp_bind_generic_node(lats_t)
+
+gen_require(`
+    type lats_port_t;
+')
+allow lats_t lats_port_t:tcp_socket name_bind;
+
+gen_require(`
+    type lats_port_t;
+')
+allow lats_t lats_port_t:tcp_socket name_connect;
+
+domain_use_interactive_fds(lats_t)
+
+files_read_etc_files(lats_t)
+
+miscfiles_read_localization(lats_t)
+
+sysnet_dns_name_resolve(lats_t)
+
+allow lats_t lats_exec_t:file execute_no_trans;
+allow lats_t self:process setsched;
+corecmd_exec_ls(lats_t)
+corenet_tcp_connect_http_port(lats_t)
+dev_read_urand(lats_t)
+fs_getattr_xattr_fs(lats_t)
+kernel_read_system_state(lats_t)

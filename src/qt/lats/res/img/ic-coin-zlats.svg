@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="ic_zpiv"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   version="1.1"
+   sodipodi:docname="ic-coin-zpiv.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1250"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="32"
+     inkscape:cx="20.484375"
+     inkscape:cy="11.78125"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="456"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Group_8932">
+    <sodipodi:guide
+       position="13.68059,20.4914"
+       orientation="0,-1"
+       id="guide3951"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="13.739558,3.5085995"
+       orientation="0,-1"
+       id="guide3953"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="3.5380835,11.469287"
+       orientation="1,0"
+       id="guide3955"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="20.4914,9.5233415"
+       orientation="1,0"
+       id="guide3957"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1242">
+    <style
+       type="text/css"
+       id="style1240">
+            .cls-1{fill:#5c4b7d}.cls-2{fill:none}
+        </style>
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <g
+     id="Group_8933"
+     data-name="Group 8933">
+    <g
+       id="Group_8932"
+       data-name="Group 8932">
+      <path
+         id="Path_18926"
+         d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 19.25A9.25 9.25 0 1 1 21.25 12 9.25 9.25 0 0 1 12 21.25z"
+         class="cls-1"
+         data-name="Path 18926"
+         style="fill:#2d3b86;fill-opacity:1" />
+      <path
+         style="fill:#2d3a86;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0188951"
+         d="m 12.007097,3.5206134 c -4.6922632,0 -8.4901592,3.8041959 -8.4901592,8.4901596 0,4.692261 3.797896,8.490158 8.4901592,8.490158 4.685962,0 8.490158,-3.797897 8.490158,-8.490158 0,-4.6859637 -3.804196,-8.4901596 -8.490158,-8.4901596 z m 4.811929,13.4280546 c 0,1.14 0,1.14 0,1.14 -4.824527,0 -4.824527,0 -4.824527,0 0,-0.06299 0,-0.06299 0,-0.06299 0,-1.077016 0,-1.077016 0,-1.077016 0,-1.687954 0,-1.687954 0,-1.687954 -4.8119292,-0.0189 -4.8119292,-0.0189 -4.8119292,-0.0189 0,-1.1337 0,-1.1337 0,-1.1337 3.5711572,-7.0289463 3.5711572,-7.0289463 3.5711572,-7.0289463 -3.5522632,0 -3.5522632,0 -3.5522632,0 0,-1.1399993 0,-1.1399993 0,-1.1399993 4.8245272,0 4.8245272,0 4.8245272,0 0,1.1399993 0,1.1399993 0,1.1399993 -3.5585612,7.0289443 -3.5585612,7.0289443 -3.5585612,7.0289443 3.5270692,0 3.5270692,0 3.5270692,0 0,-5.2969018 0,-5.2969018 0,-5.2969018 1.14,0 1.14,0 1.14,0 0,1.6501648 0,1.6501648 0,1.6501648 1.265966,-1.2722645 1.265966,-1.2722645 1.265966,-1.2722645 0.806186,0.8061864 0.806186,0.8061864 0.806186,0.8061864 -2.072152,2.0784531 -2.072152,2.0784531 -2.072152,2.0784531 0,1.643866 0,1.643866 0,1.643866 2.884638,-2.890937 2.884638,-2.890937 2.884638,-2.890937 0.806188,0.806186 0.806188,0.806186 0.806188,0.806186 -3.690826,3.697124 -3.690826,3.697124 -3.690826,3.697124 0,1.618673 0,1.618673 0,1.618673 z"
+         id="path3962" />
+    </g>
+  </g>
+  <path
+     id="Rectangle_4542"
+     d="M0 0h24v24H0z"
+     class="cls-2"
+     data-name="Rectangle 4542" />
+</svg>

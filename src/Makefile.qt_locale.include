@@ -1,0 +1,15 @@
+QT_TS = \
+  qt/locale/lats_de.ts \
+  qt/locale/lats_en.ts \
+  qt/locale/lats_en_US.ts \
+  qt/locale/lats_es.ts \
+  qt/locale/lats_es_ES.ts \
+  qt/locale/lats_fr_FR.ts \
+  qt/locale/lats_hr_HR.ts \
+  qt/locale/lats_it.ts \
+  qt/locale/lats_ko_KR.ts \
+  qt/locale/lats_nl.ts \
+  qt/locale/lats_pl.ts \
+  qt/locale/lats_ru.ts \
+  qt/locale/lats_tr.ts \
+  qt/locale/lats_zh_CN.ts

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=LATS Core
+Comment=LATS P2P Cryptocurrency
+Comment[fr]=LATS, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=LATS, eşten eşe kriptografik sanal para birimi
+Exec=lats-qt %u
+Terminal=false
+Type=Application
+Icon=lats128
+MimeType=x-scheme-handler/lats;
+Categories=Office;Finance;
+StartupWMClass=Lats-qt

@@ -1,0 +1,2 @@
+contrib/latsd.bash-completion	latsd
+contrib/lats-cli.bash-completion lats-cli
