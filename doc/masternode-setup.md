@@ -67,9 +67,10 @@ Now, you need to install unzip:
 ```
 apt install unzip
 ```
+
 Download the $Lats Core wallet for the Ubuntu 18.04:
 ```
-wget https://github.com/LATS-DAO/Lats-Core/releases/download/v5.5.0/lats-core-ubuntu18.04-5.5.0.zip && tar -xvf lats-3.0.0-x86_64-linux-gnu.tar.gz
+wget https://github.com/LATS-DAO/Lats-Core/releases/download/v5.5.0/lats-core-ubuntu18.04-5.5.0.zip
 ```
 
 and unzip it:
