@@ -62,14 +62,35 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 This will take a few moments and upon completion we can simply run this command to download the wallet and extract it.
+
+Now, you need to install unzip:
 ```
-wget https://github.com/LATS-DAO/Lats-Core/releases/download/3.0.0/lats-3.0.0-x86_64-linux-gnu.tar.gz && tar -xvf lats-3.0.0-x86_64-linux-gnu.tar.gz
+apt install unzip
 ```
+Download the $Lats Core wallet for the Ubuntu 18.04:
+```
+wget https://github.com/LATS-DAO/Lats-Core/releases/download/v5.5.0/lats-core-ubuntu18.04-5.5.0.zip && tar -xvf lats-3.0.0-x86_64-linux-gnu.tar.gz
+```
+
+and unzip it:
+```
+unzip lats-core-ubuntu18.04-5.5.0.zip
+```
+next, change the permissions:
+```
+chmod +x lat*
+```
+
+next, move all these new files to '/usr/local/bin/' that they can be valled from any location:
+```
+mv lat* /usr/local/bin/
+```
+
 Due to our coinhave the pre-requisites for Privacy Features like PIVX/ZCASH we need to make a directory for the sapling params so the wallet is able to run. Windows installer will do this automatically and same for the Mac .dmg.
 Using these commands to set that up:
 ```
 mkdir /root/.lats-params
-cp /root/lats-3.0.0/share/lats/* /root/.lats-params
+cp /root/lats-5.5.0/share/lats/* /root/.lats-params
 ```
 Next, we will configure our masternode we will start by making the default coin directory and configuration files below.
 ```
@@ -91,9 +112,30 @@ daemon=1
 listen=1
 port=45454
 maxconnections=256
+addnode=94.130.95.107
+addnode=94.130.95.108
+addnode=94.130.95.110
+addnode=188.40.233.34
+addnode=188.40.233.35
+addnode=188.40.233.38
 addnode=188.40.233.39
 addnode=188.40.233.40
 addnode=188.40.233.41
+addnode=188.40.233.43
+addnode=188.40.233.44
+addnode=188.40.233.45
+whitelist=94.130.95.107
+whitelist=94.130.95.108
+whitelist=94.130.95.110
+whitelist=188.40.233.34
+whitelist=188.40.233.35
+whitelist=188.40.233.38
+whitelist=188.40.233.39
+whitelist=188.40.233.40
+whitelist=188.40.233.41
+whitelist=188.40.233.43
+whitelist=188.40.233.44
+whitelist=188.40.233.45
 ```
 Theres a few modifications to the places, with IP_HERE we would replace with the IP address of the VPS that we are logged into. The RPC username/passwords need to be set for checking and talking to your masternode. RPC Port can be adjusted by Port can not.
 
@@ -101,17 +143,16 @@ Afterwards save and close the conf file.
 
 Finally, we can start our masternode daemon on the server to sync!
 ```
-./lats-3.0.0/bin/latsd 
+./lats-5.5.0/bin/latsd 
 ```
 This should initiate the daemon based on if you have been following the guide up until this point.
 
 After waiting a few moments we can check the sync process by using
 ```
-./lats-3.0.0/bin/lats-cli getblockcount
+./lats-5.5.0/bin/lats-cli getblockcount
 ```
 Once it matches the explorer https://explorer.lats.cc/ you can then go back to your local wallet on your normal PC and start the masternode.
 
 Happy Masternoding!
 
-
-
+Note: Please open a thread at the Masternodes section of the $Lats forum: https://lats.cc/t/masternodes if you have any questions about this process, thoughts or suggestions.
