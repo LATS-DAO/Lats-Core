@@ -13,13 +13,11 @@ Coin Specs:
 <li>PoW Blocks: 1 - 1000</li>
 <li>PoS Algorithm: QUARK</li>
 <li>PoS Blocks:</li>
-
-    v1 1001 - 1050 (MN reward = 0)
-
-    v2 1051 - 2000 (MN reward = 0) // ref: https://github.com/LATS-DAO/Lats-Core/blob/main/src/chainparams.cpp
-
-    v3 from 2001 where PoW rewards are split between MN and Stakers: https://github.com/LATS-DAO/Lats-Core/blob/main/src/validation.cpp
-
+  <ul>
+    <li>v1 1001 - 1050 (MN reward = 0)</li>
+    <li>v2 1051 - 2000 (MN reward = 0) // ref: https://github.com/LATS-DAO/Lats-Core/blob/main/src/chainparams.cpp</li>
+    <li>v3 from 2001 where PoW rewards are split between MN and Stakers: https://github.com/LATS-DAO/Lats-Core/blob/main/src/validation.cpp</li>
+  </ul>
 <li>Block Time: 60 Seconds</li>
 <li>Maturity: 100 Confirmations</li>
 <li>Prefix: LATS</li>
