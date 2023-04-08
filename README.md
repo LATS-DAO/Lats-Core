@@ -42,6 +42,11 @@ Links:
 <li>Genesis block: https://www.coinexplorer.net/LATS/block/0000043c6a01c787536012ecc33959ceadc7a270c6e3de8951b8ade35dc56534</li>
 <li>Block 1: https://explorer.lats.cc/block/0000022d024c3732a9bbfcb862c9e64a85ddc11a046bc6b6efe01e1eb073fd0e</li>
 
+<h3>Bootstrap</h3>
+<ul>
+  <li>https://bootstrap.lats.cc/</li>
+</ul>
+
 <li>Original Lats (Wikipedia): https://en.wikipedia.org/wiki/Latvian_lats</li>
 <li>Latvia (country): https://en.wikipedia.org/wiki/Latvia</li>
 </ul>
