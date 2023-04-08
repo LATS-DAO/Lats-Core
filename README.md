@@ -51,18 +51,7 @@ Coin Specs:
 
 =========
 
-Developers:
-
-<ul>
-<li>Idea, Chain Maintenance, dev costs & regular updates: https://github.com/helmuc (UK & Latvia) / Contact: dev@lats.cc</li>
-<li>Stage 1: https://github.com/Liquid369 (USA)</li>
-<li>Stage 2 (fixing errors and Tokenomics): https://github.com/SpectreSecurity (USA)</li>
-</ul>
-
-=========
-
-Tokenomics:
-
+<h3>Tokenomics:</h3>
 <ul>
 <li>Premine = 0 (in Genesis) // blocks 1 - 2000 mined privately (after 2 failed “fair & and open” launch attempts) = 200’000 $Lats</li>
     Note: we plan to burn 200’000 $Lats
@@ -77,7 +66,7 @@ Tokenomics:
 
 =========
 
-Block Rewards:
+<h3>Block Rewards:</h3>
 Ref: https://github.com/LATS-DAO/Lats-Core/blob/main/src/validation.cpp
 <ul>
 <li>Block 1 to 1000 = 100 $Lats per block (end of the PoW stage)</li>
@@ -112,8 +101,7 @@ Note: Budget coins are NOT included in a block reward - they come from a Superbl
 
 =========
 
-Addnodes:
-
+<h3>Addnodes:</h3>
 <ul>
 <li>addnode=94.130.95.107</li>
 <li>addnode=94.130.95.108</li>
@@ -131,11 +119,40 @@ Addnodes:
 
 =========
 
-Trading Pairs
+<h3>Trading Pairs</h3>
 
-Stakecube (Warning: insolvent exchange):
-
+<h4>Stakecube (Warning: insolvent exchange):<h4>
 <ul>
 <li>LATS / BTC: https://stakecube.net/app/exchange/lats_btc</li>
 <li>LATS / SCC: https://stakecube.net/app/exchange/lats_scc</li>
 </ul>
+
+=========
+
+<h3>Team</h3>
+<h4>Founder: Helmuts Meskonis, No Stress Ltd (UK)</h4>
+<ul>
+  <li>Linkedin: https://www.linkedin.com/in/helmutsmeskonis/</li>
+  <li>Github: https://github.com/helmuc</li>
+  <li>Twitter: https://twitter.com/helmutsmeskonis</li>
+</ul>
+
+<h4>Stage 1 (completed) development: Liquid369 (USA)</h4>
+<ul>
+  <li>Github: https://github.com/Liquid369</li>
+  <li>Twitter: https://twitter.com/liquid369</li>
+</ul>
+
+<h4>Developer and Security Consultant: Christian M. (USA)</h4>
+<ul>
+  <li>Github: https://github.com/SpectreSecurity</li>
+  <li>Linkedin: https://www.linkedin.com/in/christian-marvel-8a910154/</li>
+</ul>
+
+<h4>Contractor: Graphics: Felikss Veilands (Republic of Ireland)</h4>
+<ul>
+  <li>Linkedin: https://www.linkedin.com/in/felikss-veilands/</li>
+  <li>Twitter: https://twitter.com/FelikssVeilands</li>
+</ul>
+
+<p>.. more information will be added with time..</p>
