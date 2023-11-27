@@ -3,9 +3,7 @@ Lats Core repository
 
 ### Coin Specs
 
-$Lats coin (PivX fork) is a gift to Latvia and the Latvian online community, & 1st stage development was self-funded by 9 Latvian and 1 Italian business owner who liked the idea.
-
-The meaning of "Lats" > it is the name of the national currency that Latvia gave away after joining the economical alliance of the EU (good or bad > not for us to decide).
+$Lats coin (PivX fork) is a layer 1 cryptocurrency. The meaning of "Lats" = it is the name of the national currency that Latvia gave away after joining the economic alliance of the EU (good or bad > not for us to decide).
 
 Coin Specs:
 <ul>
@@ -121,6 +119,12 @@ Note: Budget coins are NOT included in a block reward - they come from a Superbl
 
 <h3>Trading Pairs</h3>
 
+<h4>Xeggex:<h4>
+<ul>
+<li>LATS / BTC: https://xeggex.com/market/LATS_BTC</li>
+<li>LATS / LTC: https://xeggex.com/market/LATS_LTC</li>
+</ul>
+
 <h4>Stakecube (Warning: insolvent exchange):<h4>
 <ul>
 <li>LATS / BTC: https://stakecube.net/app/exchange/lats_btc</li>
@@ -135,6 +139,7 @@ Note: Budget coins are NOT included in a block reward - they come from a Superbl
   <li>Linkedin: https://www.linkedin.com/in/helmutsmeskonis/</li>
   <li>Github: https://github.com/helmuc</li>
   <li>Twitter: https://twitter.com/helmutsmeskonis</li>
+  <li>Telegram: https://t.me/helmutsm</li>
 </ul>
 
 <h4>Stage 1 (completed) development: Liquid369 (USA)</h4>
