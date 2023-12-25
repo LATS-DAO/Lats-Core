@@ -125,6 +125,11 @@ Note: Budget coins are NOT included in a block reward - they come from a Superbl
 <li>LATS / LTC: https://xeggex.com/market/LATS_LTC</li>
 </ul>
 
+<h4>FreiXLite:<h4>
+<ul>
+<li>LATS / LTC: https://xeggex.com/market/LATS_LTC</li>
+</ul>
+
 <h4>Stakecube (Warning: insolvent exchange):<h4>
 <ul>
 <li>LATS / BTC: https://stakecube.net/app/exchange/lats_btc</li>
