@@ -145,3 +145,10 @@ Once it matches the explorer https://explorer.lats.cc/ you can then go back to y
 Happy Masternoding!
 
 Note: Please open a thread at the Masternodes section of the $Lats forum: https://forums.lats.cc/t/masternodes if you have any questions about this process, thoughts or suggestions.
+
+===
+
+Additional Note: /root/.lats-params should have 2 files in it: sapling-output.params and sapling-spend.params
+# /home/ubuntu/.lats-params doesn't have these files and need to have as well
+cd /root/.lats-params
+cp sapling-output.params sapling-spend.params /home/ubuntu/.lats-params
