@@ -149,6 +149,10 @@ Note: Please open a thread at the Masternodes section of the $Lats forum: https:
 ===
 
 Additional Note: /root/.lats-params should have 2 files in it: sapling-output.params and sapling-spend.params
-# /home/ubuntu/.lats-params doesn't have these files and need to have as well
+So, /home/ubuntu/.lats-params doesn't have these files and need to have as well:
+```
 cd /root/.lats-params
+```
+```
 cp sapling-output.params sapling-spend.params /home/ubuntu/.lats-params
+```
