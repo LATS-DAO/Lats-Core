@@ -70,12 +70,12 @@ apt install unzip
 
 Download the $Lats Core wallet for the Ubuntu 18.04:
 ```
-wget https://github.com/LATS-DAO/Lats-Core/releases/download/v5.5.0/lats-core-ubuntu18.04-5.5.0.zip
+wget https://github.com/LATS-DAO/Lats-Core/releases/download/v5.5.1/lats-core-ubuntu18.04-5.5.1.zip
 ```
 
 and unzip it:
 ```
-unzip lats-core-ubuntu18.04-5.5.0.zip
+unzip lats-core-ubuntu18.04-5.5.1.zip
 ```
 next, change the permissions:
 ```
@@ -91,7 +91,7 @@ Due to our coinhave the pre-requisites for Privacy Features like PIVX/ZCASH we n
 Using these commands to set that up:
 ```
 mkdir /root/.lats-params
-cp /root/lats-5.5.0/share/lats/* /root/.lats-params
+cp /root/lats-5.5.1/share/lats/* /root/.lats-params
 ```
 Next, we will configure our masternode we will start by making the default coin directory and configuration files below.
 ```
@@ -125,18 +125,6 @@ addnode=188.40.233.41
 addnode=188.40.233.43
 addnode=188.40.233.44
 addnode=188.40.233.45
-whitelist=94.130.95.107
-whitelist=94.130.95.108
-whitelist=94.130.95.110
-whitelist=188.40.233.34
-whitelist=188.40.233.35
-whitelist=188.40.233.38
-whitelist=188.40.233.39
-whitelist=188.40.233.40
-whitelist=188.40.233.41
-whitelist=188.40.233.43
-whitelist=188.40.233.44
-whitelist=188.40.233.45
 ```
 Theres a few modifications to the places, with IP_HERE we would replace with the IP address of the VPS that we are logged into. The RPC username/passwords need to be set for checking and talking to your masternode. RPC Port can be adjusted by Port can not.
 
@@ -144,16 +132,16 @@ Afterwards save and close the conf file.
 
 Finally, we can start our masternode daemon on the server to sync!
 ```
-./lats-5.5.0/bin/latsd 
+./lats-5.5.1/bin/latsd 
 ```
 This should initiate the daemon based on if you have been following the guide up until this point.
 
 After waiting a few moments we can check the sync process by using
 ```
-./lats-5.5.0/bin/lats-cli getblockcount
+./lats-5.5.1/bin/lats-cli getblockcount
 ```
 Once it matches the explorer https://explorer.lats.cc/ you can then go back to your local wallet on your normal PC and start the masternode.
 
 Happy Masternoding!
 
-Note: Please open a thread at the Masternodes section of the $Lats forum: https://lats.cc/t/masternodes if you have any questions about this process, thoughts or suggestions.
+Note: Please open a thread at the Masternodes section of the $Lats forum: https://forums.lats.cc/t/masternodes if you have any questions about this process, thoughts or suggestions.
