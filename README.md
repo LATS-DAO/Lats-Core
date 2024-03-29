@@ -5,23 +5,49 @@ Lats Core repository
 
 $Lats coin (PivX fork) is a layer 1 cryptocurrency. The meaning of "Lats" = it is the name of the national currency that Latvia gave away after joining the economic alliance of the EU (good or bad > not for us to decide).
 
-Coin Specs:
+<h2>Coin Specs</h2>
 <ul>
-<li>PoW Algorithm: X11KVS</li>
-<li>PoW Blocks: 1 - 1000</li>
-<li>PoS Algorithm: QUARK</li>
+  <li>Name: Lats</li>
+  <li>Ticker: LATS</li>
+  <li>Proof of Stake (PoS) Algorithm: QUARK</li>
+  <li>Total Supply: Unlimited</li>
+  <li>Premine: 0</li>
+  <li>Block Time: 60 Seconds</li>
+  <li>Maturity: 20 Confirmations</li>
+  <li>MN Collateral: 1000</li>
+  <li>Block Time: 60 Seconds</li>
+  <li>Maturity: 100 Confirmations</li>
+  <li>Addresses start with the capital letter "L"</li>
+  <li>Port: 45454</li>
+</ul>
+
+<h3>Genesis Block</h3>
+<ul>
+  <li>Sun, 30 Oct, 2022 07:26:40 PDT</li>
+  <li>Block Height: 0</li>
+  <li>Link: https://www.coinexplorer.net/LATS/block/0000043c6a01c787536012ecc33959ceadc7a270c6e3de8951b8ade35dc56534</li>
+</ul>
+
+<h3> Proof of Work (PoW) Launch Phase</h3>
+<ul>
+  <li>Block #1: Nov 21, 2022</li>
+  <li>PoW Phase: 1-1000 / Mining reward: 100 $Lats</li>
+  <li>PoW Phase Algorithm: X11KVS</li>
+  <li>Block 1: </li>
+  <li>Block 1000: https://explorer.lats.cc/block/0000005d5b2950ba2ed8a37cddc056c2977f88d522851c77bc24335552d8df68</li>
+</ul>
+
+<h3>More details on Proof of Stake (PoS) launch stages</h3>
 <li>PoS Blocks:</li>
   <ul>
     <li>v1 1001 - 1050 (MN reward = 0)</li>
     <li>v2 1051 - 2000 (MN reward = 0) // ref: https://github.com/LATS-DAO/Lats-Core/blob/main/src/chainparams.cpp</li>
     <li>v3 from 2001 where PoW rewards are split between MN and Stakers: https://github.com/LATS-DAO/Lats-Core/blob/main/src/validation.cpp</li>
   </ul>
-<li>Block Time: 60 Seconds</li>
-<li>Maturity: 100 Confirmations</li>
-<li>Prefix: LATS</li>
-<li>Addresses start with the capital letter "L"</li>
-<li>Port: 45454</li>
+<li><li>Block 1001: https://explorer.lats.cc/block/6566da2a064972a9a80fcbe6873d8f015eee2966142a897386367d437ab3815d</li>
 </ul>
+
+
 
 =========
 
@@ -78,7 +104,7 @@ Ref: https://github.com/LATS-DAO/Lats-Core/blob/main/src/validation.cpp
 
 =========
 
-Masternode vs Staker Reward split:
+<h2>Masternode vs Staker Reward split:</h2>
 Ref: https://github.com/LATS-DAO/Lats-Core/blob/main/src/validation.cpp 
 
 <ul>
