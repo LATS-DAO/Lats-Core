@@ -33,7 +33,7 @@ $Lats coin (PivX fork) is a layer 1 cryptocurrency. The meaning of "Lats" = it i
   <li>Block #1: Nov 21, 2022</li>
   <li>PoW Phase: 1-1000 / Mining reward: 100 $Lats</li>
   <li>PoW Phase Algorithm: X11KVS</li>
-  <li>Block 1: </li>
+  <li>Block 1: https://explorer.lats.cc/block/0000022d024c3732a9bbfcb862c9e64a85ddc11a046bc6b6efe01e1eb073fd0e</li>
   <li>Block 1000: https://explorer.lats.cc/block/0000005d5b2950ba2ed8a37cddc056c2977f88d522851c77bc24335552d8df68</li>
 </ul>
 
@@ -150,17 +150,10 @@ Note: Budget coins are NOT included in a block reward - they come from a Superbl
 
 <h3>Communities</h3>
 <ul>
-  <li>Forum: https://forums.lats.cc</li>
+  <li>Official Forum: https://forums.lats.cc</li>
   <li>Discord: https://discord.gg/xVvajam5u2</li>
   <li>Telegram: https://t.me/latscoin</li>
-</ul>
-
-=========
-
-<h3>More on Latvia</h3>
-<ul>
-  <li>Original Lats (Wikipedia): https://en.wikipedia.org/wiki/Latvian_lats</li>
-  <li>Latvia (country): https://en.wikipedia.org/wiki/Latvia</li>
+  <li>GitHub discussions: https://github.com/LATS-DAO/Lats-Core/discussions</li>
 </ul>
 
 =========
@@ -213,4 +206,16 @@ Note: Budget coins are NOT included in a block reward - they come from a Superbl
   <li>Twitter: https://twitter.com/FelikssVeilands</li>
 </ul>
 
+=========
+
+<h3>More on Latvia</h3>
+<ul>
+  <li>Original Lats (Wikipedia): https://en.wikipedia.org/wiki/Latvian_lats</li>
+  <li>Latvia (country): https://en.wikipedia.org/wiki/Latvia</li>
+</ul>
+
+=========
+
 <p>.. more information will be added with time..</p>
+
+<p>Please suggest the changes to this page at: https://forums.lats.cc</p>
