@@ -160,7 +160,7 @@ Note: Budget coins are NOT included in a block reward - they come from a Superbl
 
 <h3>Trading Pairs</h3>
 
-<h4>Xeggex:<h4>
+<h4>Xeggex (referral link for joining: https://ej.uz/xeggex):<h4>
 <ul>
 <li>LATS / BTC: https://xeggex.com/market/LATS_BTC</li>
 <li>LATS / LTC: https://xeggex.com/market/LATS_LTC</li>
@@ -171,7 +171,8 @@ Note: Budget coins are NOT included in a block reward - they come from a Superbl
 <li>LATS / LTC: https://freixlite.com/market/LATS/LTC</li>
 </ul>
 
-<h4>Stakecube (Warning: insolvent exchange):<h4>
+<h4>StakeCube Trading Pairs (Warning: insolvent exchange)</h4>
+<p>(referral link for joining: https://ej.uz/stakecube)</p>
 <ul>
 <li>LATS / BTC: https://stakecube.net/app/exchange/lats_btc</li>
 <li>LATS / SCC: https://stakecube.net/app/exchange/lats_scc</li>
@@ -204,6 +205,14 @@ Note: Budget coins are NOT included in a block reward - they come from a Superbl
 <ul>
   <li>Linkedin: https://www.linkedin.com/in/felikss-veilands/</li>
   <li>Twitter: https://twitter.com/FelikssVeilands</li>
+</ul>
+
+=========
+
+<h3>Links - MasterNode specific Directories:</h3>
+<ul>
+  <li>Node Stats: https://nodestats.info/default.php?coin=lats</li>
+  <li>Pecunia Platform: https://pecuniaplatform.io/coin-stats/lats</li>
 </ul>
 
 =========
