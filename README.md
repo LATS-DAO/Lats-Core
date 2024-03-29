@@ -47,32 +47,6 @@ $Lats coin (PivX fork) is a layer 1 cryptocurrency. The meaning of "Lats" = it i
 <li><li>Block 1001: https://explorer.lats.cc/block/6566da2a064972a9a80fcbe6873d8f015eee2966142a897386367d437ab3815d</li>
 </ul>
 
-
-
-=========
-
-<h3>Links:</h3>
-<ul>
-<li>Website/Forum: https://lats.cc</li>
-<li>Official Explorer: https://explorer.lats.cc</li>
-<li>CoinExplorer Explorer: https://www.coinexplorer.net/LATS/</li>
-<li>GitHub: https://github.com/LATS-DAO/Lats-Core</li>
-<li>Wallets: https://github.com/LATS-DAO/Lats-Core/releases</li>
-<li>Bitcointalk announcement: https://bitcointalk.org/index.php?topic=5420885</li>
-<li>Discord: https://discord.gg/xVvajam5u2</li>
-<li>Telegram: https://t.me/latscoin</li>
-<li>Logo: https://i.imgur.com/kvHCt7S.png</li>
-<li>Genesis block: https://www.coinexplorer.net/LATS/block/0000043c6a01c787536012ecc33959ceadc7a270c6e3de8951b8ade35dc56534</li>
-<li>Block 1: https://explorer.lats.cc/block/0000022d024c3732a9bbfcb862c9e64a85ddc11a046bc6b6efe01e1eb073fd0e</li>
-<li>Original Lats (Wikipedia): https://en.wikipedia.org/wiki/Latvian_lats</li>
-<li>Latvia (country): https://en.wikipedia.org/wiki/Latvia</li>
-</ul>
-
-<h4>Bootstrap</h4>
-<ul>
-  <li>https://bootstrap.lats.cc/</li>
-</ul>
-
 =========
 
 <h3>Tokenomics:</h3>
@@ -139,6 +113,54 @@ Note: Budget coins are NOT included in a block reward - they come from a Superbl
 <li>addnode=188.40.233.43</li>
 <li>addnode=188.40.233.44</li>
 <li>addnode=188.40.233.45</li>
+</ul>
+
+==================
+==================
+<h2>Links</h2>
+==================
+
+<h3>Basic Links:</h3>
+<ul>
+<li>Website: https://www.lats.cc</li>
+<li>GitHub: https://github.com/LATS-DAO/Lats-Core</li>
+<li>Wallets: https://github.com/LATS-DAO/Lats-Core/releases</li>
+<li>Bitcointalk announcement: https://bitcointalk.org/index.php?topic=5420885</li>
+<li>Logo: https://i.imgur.com/kvHCt7S.png</li>
+<li>Genesis block: https://www.coinexplorer.net/LATS/block/0000043c6a01c787536012ecc33959ceadc7a270c6e3de8951b8ade35dc56534</li>
+<li>Block 1: https://explorer.lats.cc/block/0000022d024c3732a9bbfcb862c9e64a85ddc11a046bc6b6efe01e1eb073fd0e</li>
+</ul>
+
+=========
+
+<h3>Explorers</h3>
+<ul>
+  <li>Official Explorer: https://explorer.lats.cc</li>
+  <li>CoinExplorer Explorer: https://www.coinexplorer.net/LATS/</li>
+</ul>
+
+=========
+
+<h3>Bootstrap</h3>
+<ul>
+  <li>https://bootstrap.lats.cc/</li>
+</ul>
+
+=========
+
+<h3>Communities</h3>
+<ul>
+  <li>Forum: https://forums.lats.cc</li>
+  <li>Discord: https://discord.gg/xVvajam5u2</li>
+  <li>Telegram: https://t.me/latscoin</li>
+</ul>
+
+=========
+
+<h3>More on Latvia</h3>
+<ul>
+  <li>Original Lats (Wikipedia): https://en.wikipedia.org/wiki/Latvian_lats</li>
+  <li>Latvia (country): https://en.wikipedia.org/wiki/Latvia</li>
 </ul>
 
 =========
