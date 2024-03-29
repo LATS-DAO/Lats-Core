@@ -180,6 +180,17 @@ Note: Budget coins are NOT included in a block reward - they come from a Superbl
 
 =========
 
+<h3>COIN DIRECTORY LISTINGS:</h3>
+<ul>
+  <li>CoinGecko: .. coming soon</li>
+  <li>CoinPaprika: https://coinpaprika.com/coin/lats-lats/</li>
+  <li>NodeStats: https://nodestats.info/default.php?coin=lats</li>
+  <li>LiveCoinWatch: https://www.livecoinwatch.com/price/LATS-LATS</li>
+  <li>CoinCodex: https://coincodex.com/crypto/lats-token/</li>
+</ul>
+
+=========
+
 <h3>Team</h3>
 <h4>Founder: Helmuts Meskonis, No Stress Ltd (UK)</h4>
 <ul>
