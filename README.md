@@ -49,6 +49,22 @@ $Lats coin (PivX fork) is a layer 1 cryptocurrency. The meaning of "Lats" = it i
 
 =========
 
+### $Lats Coin (LATS) Denomination Table
+(*Smallest Unit of Measurement*)
+<table>
+<tr><td>1 LATS</td><td>100,000,000 Santīmi</td></tr>
+<tr><td>0.1 LATS</td><td>10,000,000 Santīmi</td></tr>  
+<tr><td>0.01 LATS</td><td>1,000,000 Santīmi</td></tr>
+<tr><td>0.001 LATS</td><td>100,000 Santīmi</td></tr>
+<tr><td>0.0001 LATS</td><td>10,000 Santīmi</td></tr>  
+<tr><td>0.00001 LATS</td><td>1,000 Santīmi</td></tr>
+<tr><td>0.000001 LATS</td><td>100 Santīmi</td></tr>
+<tr><td>0.0000001 LATS</td><td>10 Santīmi</td></tr>
+<tr><td>0.00000001 LATS</td><td>1 Santīms</td></tr>
+</table>
+
+=========
+
 <h3>Tokenomics:</h3>
 <ul>
 <li>Premine = 0 (in Genesis) // blocks 1 - 2000 mined privately (after 2 failed “fair & and open” launch attempts) = 200’000 $Lats</li>
