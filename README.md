@@ -117,18 +117,7 @@ Note: Budget coins are NOT included in a block reward - they come from a Superbl
 
 <h3>Addnodes:</h3>
 <ul>
-<li>addnode=94.130.95.107</li>
-<li>addnode=94.130.95.108</li>
-<li>addnode=94.130.95.110</li>
-<li>addnode=188.40.233.34</li>
-<li>addnode=188.40.233.35</li>
-<li>addnode=188.40.233.38</li>
-<li>addnode=188.40.233.39</li>
-<li>addnode=188.40.233.40</li>
-<li>addnode=188.40.233.41</li>
-<li>addnode=188.40.233.43</li>
-<li>addnode=188.40.233.44</li>
-<li>addnode=188.40.233.45</li>
+  <li>[to be updated]</li>
 </ul>
 
 ==================
@@ -152,21 +141,22 @@ Note: Budget coins are NOT included in a block reward - they come from a Superbl
 <h3>Explorers</h3>
 <ul>
   <li>Official Explorer: https://explorer.lats.cc</li>
-  <li>CoinExplorer Explorer: https://www.coinexplorer.net/LATS/</li>
+  <li>Explorer #2 (maintained by Helmuts): https://lats.stakersforum.com</li>
+  <li>CoinExplorer Explorer (maintained by StakeCube): https://www.coinexplorer.net/LATS/</li>
 </ul>
 
 =========
 
 <h3>Bootstrap</h3>
 <ul>
-  <li>https://bootstrap.lats.cc/</li>
+  <li>[inactive - to be updated] https://bootstrap.lats.cc/</li>
 </ul>
 
 =========
 
 <h3>Communities</h3>
 <ul>
-  <li>Official Forum: https://forums.lats.cc</li>
+  <li>Forum: https://www.stakersforum.com/forums/lats/ (previously: https://forums.lats.cc)</li>
   <li>Discord: https://discord.gg/xVvajam5u2</li>
   <li>Telegram: https://t.me/latscoin</li>
   <li>GitHub discussions: https://github.com/LATS-DAO/Lats-Core/discussions</li>
@@ -175,12 +165,6 @@ Note: Budget coins are NOT included in a block reward - they come from a Superbl
 =========
 
 <h3>Trading Pairs</h3>
-
-<h4>Xeggex (referral link for joining: https://ej.uz/xeggex):<h4>
-<ul>
-<li>LATS / BTC: https://xeggex.com/market/LATS_BTC</li>
-<li>LATS / LTC: https://xeggex.com/market/LATS_LTC</li>
-</ul>
 
 <h4>FreiXLite:<h4>
 <ul>
@@ -198,11 +182,9 @@ Note: Budget coins are NOT included in a block reward - they come from a Superbl
 
 <h3>COIN DIRECTORY LISTINGS:</h3>
 <ul>
-  <li>CoinGecko: .. coming soon</li>
   <li>CoinPaprika: https://coinpaprika.com/coin/lats-lats/</li>
   <li>NodeStats: https://nodestats.info/default.php?coin=lats</li>
   <li>LiveCoinWatch: https://www.livecoinwatch.com/price/LATS-LATS</li>
-  <li>CoinCodex: https://coincodex.com/crypto/lats-token/</li>
 </ul>
 
 =========
